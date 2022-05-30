@@ -1,0 +1,43 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar
+{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color:black;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    
+
+}
+
+#menu>div{
+    /* border: 1px solid black; */
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+
+#coffeeImage
+{
+    width: 100%;
+}

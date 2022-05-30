@@ -1,0 +1,49 @@
+body
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#order-form{
+    /* border: 1px solid black; */
+    width: auto;
+    max-width: fit-content;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+#order-form form input{
+    display: block;
+    padding: 10px;
+    width: 200px;
+    margin-top: 20px;
+    outline: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+
+
+}
+
+button{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: white;
+    background-color: black;
+
+}
